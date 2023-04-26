@@ -13,7 +13,7 @@ but.addEventListener("click", function onclick(){
 
     let randomNumber = Math.random() * 20;
     let num = Math.round(randomNumber);
-    console.log(Myresult.textContent = num);
+    Myresult.textContent = num;
   
     for(let index = 0; index < prizeNumbers.length; index++){
       
